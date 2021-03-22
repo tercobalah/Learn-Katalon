@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://id.atlassian.com/login?continue=https%3A%2F%2Ftercobalah.atlassian.net%2Flogin%3FredirectCount%3D1%26application%3Djira&application=jira')
+
+WebUI.setText(findTestObject('Login/FormEmail'), 'tercobalah@gmail.com')
+
+WebUI.click(findTestObject('Login/ButtonContinue'))
+
+WebUI.setText(findTestObject('Login/FormPassword'), 'percob44N')
+
+WebUI.click(findTestObject('Login/ButtonLogIn'))
+
