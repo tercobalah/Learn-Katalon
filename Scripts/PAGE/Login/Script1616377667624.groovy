@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Login/FormEmail'), 'tercobalah@gmail.com')
 
 WebUI.click(findTestObject('Login/ButtonContinue'))
 
-WebUI.setText(findTestObject('Login/FormPassword'), 'percob44N')
+WebUI.setText(findTestObject('Login/FormPassword'), 'percob44n')
 
 WebUI.click(findTestObject('Login/ButtonLogIn'))
 
